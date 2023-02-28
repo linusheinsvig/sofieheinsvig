@@ -108,25 +108,16 @@ section {
 
 /* gallery page */
 
-#gallery-menu {
-    font-family: Taviraj, sans-serif;
-    font-size: 100%;
+.gallery-headers {
     text-align: center;
-    line-height: 100px;
+    text-decoration: underline;
+    font-size: 200%;
 }
 
-#gallery-menu > li {
-    display: inline-block;
-    margin: 0 150px 0 150px;
-}
-
-#gallery-menu a {
-    text-decoration: none;
-    color: #3a3a3a;
-}
-
-#gallery-menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+#gallery-images > img {
+    width: 300px;
+    padding: 20px;
+    margin: 0 20px 0 20px;
 }
 
 /* footer and social media */
