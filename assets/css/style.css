@@ -14,6 +14,10 @@ body {
 
 /* heading and logo */
 
+header {
+    height: 100px;
+}
+
 h1, h2 {
     font-family: Taviraj, sans-serif;
     text-transform: uppercase;
@@ -102,6 +106,29 @@ section {
     padding: 10px;
 }
 
+/* gallery page */
+
+#gallery-menu {
+    font-family: Taviraj, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+#gallery-menu > li {
+    display: inline-block;
+    margin: 0 150px 0 150px;
+}
+
+#gallery-menu a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#gallery-menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* footer and social media */
 
 .social-networks {
@@ -116,9 +143,9 @@ section {
 .social-networks i {
     font-size: 160%;
     color: #3a3a3a;
-    padding: 2%;
+    padding: 5%;
 }
 
 footer {
-    height: 100px;
+    height: 50px;
 }
