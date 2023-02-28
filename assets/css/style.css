@@ -9,9 +9,15 @@
 body {
     font-family: Montserrat, sans-serif;
     color: #252525;
+    background-color: #F8F8F8;
 }
 
 /* heading and logo */
+
+header {
+    background-color: #D3D3D3;
+    height: 100px;
+}
 
 h1, h2 {
     font-family: Taviraj, sans-serif;
@@ -23,7 +29,7 @@ h1, h2 {
 #logo {
     font-family: Catamaran, sans-serif;
     float: left;
-    font-size: 300%;
+    font-size: 400%;
     margin-left: 20px;
 }
 
@@ -53,4 +59,20 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+
+/* main page */
+
+#heroimage {
+    width: 400px;
+    margin: 50px 0  0   20px;
+    float: left;
+}
+
+#about-me {
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin-left: 40px;
 }
