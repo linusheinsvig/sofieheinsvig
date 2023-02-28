@@ -72,7 +72,7 @@ section {
 }
 
 #about-me-text {
-    height: 400px;
+    height: 250px;
     width: 50%;
     float: right;
     margin-right: 10%;
@@ -87,12 +87,14 @@ section {
 /* main page collage */
 
 #collage {
+    clear: both;
     column-count: 3;
     margin-left: 5%;
 }
 
 #collage > img {
     width: 300px;
+    padding: 10px;
 }
 
 /* footer and social media */
