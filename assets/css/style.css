@@ -8,12 +8,49 @@
 
 body {
     font-family: Montserrat, sans-serif;
+    color: #252525;
 }
 
-h1 {
-    font-family: Catamaran, sans-serif;
-}
+/* heading and logo */
 
-h2, h3 {
+h1, h2 {
     font-family: Taviraj, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #3a3a3a;
+}
+
+#logo {
+    font-family: Catamaran, sans-serif;
+    float: left;
+    font-size: 300%;
+    margin-left: 20px;
+}
+
+#menu {
+    font-family: Taviraj, sans-serif;
+    font-size: 200%;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
