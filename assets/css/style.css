@@ -37,9 +37,9 @@ h1, h2 {
 }
 
 #menu li {
-    display: inline-block;
+    display: inline-block; 
     list-style-type: none;
-    margin-left: 35px;
+    margin-left: 3rem;
 }
 
 #menu a {
@@ -59,6 +59,7 @@ h1, h2 {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 
 /* main page */
@@ -87,6 +88,7 @@ h1, h2 {
 
 .about-me-photos img {
     width: 220px;
+    margin-left: 20px;
 } 
 
 .row {  
@@ -149,6 +151,7 @@ h1, h2 {
  }
 
 /* footer and social media */
+
 
 .social-networks {
     text-align: center;
