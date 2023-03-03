@@ -167,3 +167,7 @@ h1, h2 {
     color: #3a3a3a;
     padding: 5%;
 }
+
+.act-pictures img {
+    width: 200px;
+}
