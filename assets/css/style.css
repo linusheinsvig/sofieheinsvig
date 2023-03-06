@@ -9,8 +9,10 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    color: #252525;
+    color: #151515;
     position: relative;
+    font-weight: 900;
+    font-size: 1rem;
 }
 
 /* heading and logo */
@@ -170,7 +172,7 @@ h1, h2 {
 /* acting and voice */
 
 video{
-    width: 500px;
+    width: 40em;
     padding: 2%;
 }
 
@@ -179,9 +181,19 @@ video{
     flex-wrap: wrap;
     columns: 3;
     justify-content: center;
+    padding: 5rem;
 }
 
 .act img {
     width: 200px;
     padding: 10%;
+}
+
+#contact {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.social img {
+    width: 200px;
 }
