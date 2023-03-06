@@ -167,16 +167,21 @@ h1, h2 {
     padding: 5%;
 }
 
-.act-pictures {
-    display: inline-block;
-}
-
-.act-pictures img {
-    display: flex;
-    width: 200px;
-}
+/* acting and voice */
 
 video{
-    width: 100%;
+    width: 500px;
     padding: 2%;
+}
+
+.act {
+    display: flex;
+    flex-wrap: wrap;
+    columns: 3;
+    justify-content: center;
+}
+
+.act img {
+    width: 200px;
+    padding: 10%;
 }
