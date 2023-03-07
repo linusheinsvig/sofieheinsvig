@@ -73,6 +73,7 @@ img:hover {
     align-items: flex-end;
 }
 
+
 /* main page */
 
 #heroimage {
@@ -164,13 +165,13 @@ img:hover {
 /* acting and voice */
 
 video{
-    width: 35em;
+    min-width: 290px;
+    max-width: 100%;
 }
 
 .act {
     display: flex;
     flex-wrap: wrap;
-    columns: 3;
     justify-content: center;
     padding: 5rem;
 }
@@ -204,3 +205,6 @@ video{
     border-bottom: 1px solid #3a3a3a;
 }
 
+.social a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
