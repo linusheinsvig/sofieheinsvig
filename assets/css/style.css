@@ -32,6 +32,12 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
 /* navigation links */
 
 #menu {
@@ -42,7 +48,7 @@ h1, h2 {
 #menu li {
     display: inline-flex; 
     list-style-type: none;
-    margin-left: clamp(1rem, 3vh + 1rem, 2rem);
+    margin-right: clamp(1rem, 3vh + 1rem, 2rem); 
 }
 
 #menu a {
@@ -61,23 +67,18 @@ h1, h2 {
 .navigation {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 /* main page */
 
 #heroimage {
-    height: 600px;
-}
+    height: 650px;
+} 
 
-
-#about-me-text h2 {
-    font-size: 3rem;
-    border-bottom: 1px solid #3a3a3a; 
-}
-
-#about-me-text p {
-    padding: 2rem;
-}
 
 .about-me-photos img {
     width: 220px;
@@ -91,28 +92,29 @@ h1, h2 {
     margin-inline: auto;
   }
 
-  .left {
+  #left {
     display: flex;
-    flex: 20%; 
+    flex: 1 1 20%;
     justify-content: center;
   }
 
-  .right {
-    flex: 50%;
+  #right {
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
     padding: 1em; 
-    text-align: center;
+    text-align: center; 
   }
 
-/* main page collage */
+  #right h2 {
+    font-size: clamp(2rem, 4vh + 1rem, 3rem);
+    border-bottom: 1px solid #3a3a3a;
+  }
 
-#collage {
-    clear: both;
-    column-count: 3;
-}
-
-#collage > img {
-    width: 255px;
-}
+  #right p {
+    font-size: 1.1rem;
+    padding: 1em;
+  }
 
 /* gallery page */
 
@@ -129,13 +131,11 @@ h1, h2 {
   }
 
   .gallery-left img {
-    width: 200px;
+    width: 250px;
   }
 
   .gallery-right img {
     width: 200px;
-    margin-top: 8px;
-    vertical-align: middle;
   }
 
  .gallery-heading {
