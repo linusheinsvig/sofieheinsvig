@@ -5,10 +5,11 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 
 ![Alt text](assets/images/readme-photos/Sofieresponsible.webp)
 
-## Features
-<hr>
+# Features
+
 
 ### Site wide
+<hr>
 
 <ul>
 <li>Navigation Menu
@@ -40,7 +41,7 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 </ul>
 </ul>
 
-## Index page
+### Index page
 <hr>
 <ul>
 <li>Index page images
@@ -80,6 +81,8 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 </ul>
 </ul>
 
+![Acting Page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2016.48.07%20(1).webp)
+
 ## Gallery Page
 <hr>
 <ul>
@@ -93,6 +96,74 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 
 ![Gallery Page](assets/images/readme-photos/sofieheinsvigmac%20(1).webp)
 
-## Contact Page
+### Contact Page
+<hr>
+<ul>
+<li>Contact Form
+<ul>
+<li>On the left side of the contact page you find a contact form to send a message to Sofie. The form consists of fields for:
+<ul>
+<li>First Name
+<li>Last Name
+<li>Email Address
+<li>Message Box
+<li>Submit button
+</ul>
+<li>All of the boxes must be filled to be able to submit your message
+<li>After a sucessfull submission the user will be sent to a new page telling them the submition went well:
+
+![Alt text](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2017.00.14.webp)
+
+</ul>
+<li>The right size of the page concists of logos linking the user to Instagram, Facebook and StagePool
+<li>Below that is a link to read Sofie's resume, it's a PDF file that opens in a new window
+<li>The second link is "Contact Me" and that opens you mail client to be able to send a email straigt away
+</ul>
 <hr>
 
+## Features Left to Implement
+<ul>
+<li>A more responsive gallery with javascript to make slideshows of the photos
+<li>The contact form will also be updated with javascript to send a email after succesfull submit
+<li>Webshop with ability to buy painting
+</ul>
+<br>
+
+# Design
+
+
+### Wireframes
+
+#### Index Page
+![Index page](assets/images/readme-photos/Index%20page.png)
+
+#### Acting Page
+![Acting page](assets/images/readme-photos/Acting%20page.png)
+
+#### Gallery Page
+![Gallery page](assets/images/readme-photos/Gallery%20page.png)
+
+#### Contact Page
+![Contact page](assets/images/readme-photos/Contacts%20page.png)
+
+#### Phone
+![Phone mockup](assets/images/readme-photos/Iphone%20Index.png)
+
+# Technologies
+<ul>
+<li>HTML
+<ul>
+<li>The structure of the page was made using the HTML language
+</ul>
+<li>CSS
+<ul>
+<li>The styling of the website was done with CSS in an external file
+</ul>
+<li>GitPod & Git
+<ul>
+<li>All the code was written on GitPod using the template provided by Code Insitute
+<li>Git was used to commit and push the code to GitHub
+</ul>
+<li>GitHub
+<ul>
+<li>The code is hosted on Github and deployed using github-pages
