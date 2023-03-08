@@ -267,7 +267,30 @@ Alerts: Read my resume contains a PDF file
 ## Jigsaw Test
 ![Alt text](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.15.32.png)
 
+## Manual Testing
+<hr>
 
+### Navbar
+<ul>
+<li>All of the links in the navigation bar takes me to the correct site
+<li>All of the links gets a small border underneat them when hovered
+<li>The line under the active page works on all the sites and help you understand what site you are on
+</ul>
+
+### External link
+<ul>
+<li>All of the external links work and takes me to the correct site
+<li>All external links opens in a new tab as expected
+</ul>
+
+### Contact Form
+<ul>
+<li>All of the text boxes works as expected
+<li>You can't submit the test if you have not input text in all the boxes as expected
+<li>The form works both on computer and on mobile
+<li>When clicking the phone number on computer it ask If I want to make a call with Facetime
+<li>When clicking the phone number with Iphone 12 you get to make a call
+<li>The call does not work becuse it's not the correct number because of Sofies integrity
 
 
 
