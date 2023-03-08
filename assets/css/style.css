@@ -73,16 +73,15 @@ img:hover {
     align-items: flex-end;
 }
 
-
 /* main page */
 
 #heroimage {
-    height: 650px;
+    height: clamp(600px, 20vh, 250px);
 } 
 
 
 .about-me-photos img {
-    width: 220px;
+    width: clamp(200px, 20vw, 100px);
     margin-left: 20px;
 } 
 
