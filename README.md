@@ -233,6 +233,7 @@ Devices used to test website:
 <li>Iphone 12 Max
 </ul>
 
+## Accessibility
 
 
 
