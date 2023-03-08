@@ -167,3 +167,73 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 <li>GitHub
 <ul>
 <li>The code is hosted on Github and deployed using github-pages
+</ul>
+<li>Font Awsome
+<ul>
+<li>The icons used for social media links was found on 
+
+https://fontawesome.com
+
+</ul>
+<li>FreeConvert
+<ul>FreeConvert was used to convert all the photos from JPG to webp format 
+
+https://www.freeconvert.com
+</ul>
+<li>TinyPNG
+<ul>TinyPNG was used to reduce the size of the webp images to speed up the site
+
+https://tinypng.com/
+
+</ul>
+<li>Favicon.io
+<ul> I created the logo in the tab using favicon
+
+https://favicon.io
+</ul>
+<li>Balsamiq
+<ul>The wireframes was made using balsamiq
+
+https://balsamiq.com/wireframes/desktop/#
+</ul>
+<li>Magic Mockups
+<ul>
+<li>Mockups for the README file was made using Magic Mockups
+
+http://magicmockups.com
+</ul>
+</ul>
+
+# Testing
+## Responsivness
+All pages was tested to be responsive dow to 280px (Samsung Galaxy Fold) which I belive has the smallest screen width at the moment. The page was tested in Chrome, Firefox and Safari both on computer and on mobile.
+
+#### Steps of testing:
+<ol>
+<li>Open browser and navigate to 
+
+https://linusheinsvig.github.io/sofieheinsvig/index.html
+<li>Open developer tools (right click and pick inspect)
+<li>Chose responsive and set width to 280px
+<li>Set zoom to 50%
+<li>Drag the responsive window to maximum width
+</ol>
+
+#### Expected:
+Website is responsive on all screen sizes with no elements overlapping and no horizontal scroll
+
+#### Results:
+Website is behaving well, the hero-image can cause a small amount of sidescroll at some sizes but other than that all the text is readable and no overlapping found
+
+Devices used to test website:
+<ul>
+<li>Macbook Air
+<li>Macbook Air with 32 inch external monitor
+<li>Iphone 12
+<li>Iphone 12 Max
+</ul>
+
+
+
+
+
