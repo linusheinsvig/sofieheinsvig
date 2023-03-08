@@ -243,3 +243,29 @@ button:hover {
 .social a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* contact-form page */
+
+.contact {
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5em;
+}
+
+ .contact h2 {
+    border-bottom: 1px solid #3a3a3a;
+ }
+
+ .contact p {
+    padding: 0.5%;
+ }
+
+ .contact a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 1.5em;
+ }
+
+ .contact a:hover {
+    border-bottom: 1px solid #3a3a3a;
+ }
