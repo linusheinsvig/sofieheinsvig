@@ -333,6 +333,33 @@ The following commands where used in this proccess
 <li>This command was used to push all localy stores changes to the remote repository on github
 </ul>
 
+### Deployment to Github-pages
+<ul>
+<li>This site was deployed to GitHub pages. The steps used to deploy are as follows:
+<ul>
+<li>In the GitHub repository, navigate to the Settings button om top of the page
+<li>From the menu on the left side select 'Pages'
+<li>From the source sections drop-down menu, select 'Deploy from branch'
+<li>From the Branch drop-down menu, select 'main'
+<li>Press 'Save'
+<li>After that you can find the live link on the right side of your repository under the heading 'Enviroments'
+</ul>
+The live link can be found here: 
 
+https://linusheinsvig.github.io/sofieheinsvig/index.html
+
+### Clone the Repository Code Locally
+Navigate to the GitHub Repository you want to clone
+<ul>
+<li>Click on the code drop down button
+<li>Select HTTPS
+<li>Copy the repository link to your clipboard
+<li>Open you IDE of choice (git must be installed for the next step)
+<li>Type git clone copied-git-url into the IDE termial
+</ul>
+The project will now been cloned on your local machine for use.
+
+## Credits
+<hr>
 
 
