@@ -235,6 +235,40 @@ Devices used to test website:
 
 ## Accessibility
 
+### Wave accessibility test
+On all of the pages there is an alert that both the logo and the home button links to index.html
+
+Index Page
+![Index page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2020.28.07.png)
+
+Acting Page
+Alerts: 3 alerts that the pages contains audio/ video files
+![Acting page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2020.29.03.png)
+
+Gallery Page
+![Gallery page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2020.29.27.png)
+
+Contact Page
+Alerts: Read my resume contains a PDF file
+![Contact page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2020.29.47.png)
+
+### Lighthouse Test
+![Jigsaw test](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2020.43.27.png)
+![Alt text](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.38.52.png)
+![Alt text](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.39.40.png)
+![Alt text](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.40.16.png)
+
+### W3C Validator Test
+![Index page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.23.54.png)
+![Gallery page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.24.02.png)
+![Acting page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.24.10.png)
+![Contact page](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.24.18.png)
+
+## Jigsaw Test
+![Alt text](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2021.15.32.png)
+
+
+
 
 
 
