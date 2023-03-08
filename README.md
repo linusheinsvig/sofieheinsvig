@@ -3,7 +3,7 @@ Sofie Heinsvig is an actress, photographer, paiter and voiceover artist. This we
 You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 
 
-![Am I Responsible](assets/images/readme-photos/sofieheinsvigamI.webp)
+![Alt text](assets/images/readme-photos/Sofieresponsible.webp)
 
 ## Features
 <hr>
@@ -18,11 +18,17 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 <li>It also has a small border under the chosen page to make it easy to understand where on the page you are
 </li>
 </ul>
+
+![Header](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2016.28.00.webp)
+
 <li>Footer
 <ul>
 <li>The footer contains icons as links to Instagram and Facebook that open in a new link when clicked
 </li>
 </ul>
+
+![Footer](assets/images/readme-photos/Ska%CC%88rmavbild%202023-03-08%20kl.%2016.32.24.webp)
+
 <li>Favicon
 <ul>
 <li>A sitewide favicon is implemented with the initials SH
@@ -49,6 +55,8 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 <li>Both of the text are there to give the user a even bigges feel for who Sofie is as a person
 </ul>
 </ul>
+
+![Index page](assets/images/readme-photos/mockupipad%20(1).webp)
 
 ## Acting page
 <hr>
@@ -82,6 +90,8 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 <li>On smaller devices the gallery is responsive and stacks on top of each other insted of next to each other
 </ul>
 </ul>
+
+![Gallery Page](assets/images/readme-photos/sofieheinsvigmac%20(1).webp)
 
 ## Contact Page
 <hr>
