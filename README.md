@@ -296,6 +296,7 @@ Alerts: Read my resume contains a PDF file
 <li>When clicking the phone number with Iphone 12 you get to make a call
 <li>The call does not work becuse it's not the correct number because of Sofies integrity
 </ul>
+</ul>
 
 ## Unfixed Bugs
 <hr>
@@ -318,14 +319,15 @@ There is probably a solution to this and also something I would work on for a la
 ### Version Control
 This site was created in GitPod and pushed to Github to the remote repository 'sofieheinsvig'
 <br>
+
 The following commands where used in this proccess
 <ul>
 <li>git add .
-<ul>
+</ul>
 <li>This command was used to add the file(s) to the staging area befor commiting
 </ul>
 <li>git commit -m "commit message"
-<ul>
+</ul>
 <li>This command was used to commit changes to the local repository before pushing them to the remote repository
 </ul>
 <li>git push
@@ -344,6 +346,7 @@ The following commands where used in this proccess
 <li>Press 'Save'
 <li>After that you can find the live link on the right side of your repository under the heading 'Enviroments'
 </ul>
+</ul>
 The live link can be found here: 
 
 https://linusheinsvig.github.io/sofieheinsvig/index.html
@@ -361,5 +364,24 @@ The project will now been cloned on your local machine for use.
 
 ## Credits
 <hr>
+<ul>
+<li>Kevin Powell's youtube channel
 
+https://www.youtube.com/@KevinPowell
+<ul>
+<li>Introduced me to many modern ways to use CSS (flexbox, grid, clamp and many more)
+</ul>
+<li>Cem Eygi Media on youtube
+
+https://www.youtube.com/watch?v=QmZNFnqwu74
+<ul>
+<li>Gave me the inspiration to use :hover effects for images
+</ul>
+
+### Content
+All of the texts, images and videos on the site was provided from Sofie Heinsvigs. <br>
+Most of the content on this website can also be found on her old website 
+https://www.sofieheinsvig.com/
+<br>
+Permission was granted by Sofie Heinsvig to use all of the content.
 
