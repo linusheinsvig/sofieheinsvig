@@ -15,7 +15,11 @@ body {
     font-size: 1rem; 
 }
 
-/* heading and logo */
+img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
 
 h1, h2, h3 {
     font-family: Taviraj, sans-serif;
@@ -23,32 +27,30 @@ h1, h2, h3 {
     color: #3a3a3a; 
 }
 
+/* logo and navigation links */
 
 #logo {
+    display: flex;
+    flex-wrap: nowrap;
     font-family: Catamaran, sans-serif;
-    float: left;
-    font-size: clamp(2rem, 5vh + 1rem, 6rem);
-    margin-left: 20px;
+    font-size: clamp(2rem, 3vw + 1rem, 3rem);
     text-transform: uppercase;
 }
 
-img:hover {
-    cursor: pointer;
-    opacity: 0.7;
-    transition: 0.5s;
-}
-
-/* navigation links */
-
 #menu {
+    display: flex;
+    flex-wrap: wrap; 
     font-family: Taviraj, sans-serif;
-    font-size: clamp(1rem, 3vh + 1rem, 2rem);
+    font-size: clamp(1rem, 2vh + 1rem, 2rem);
+    justify-content: space-around;
+    
 }
 
 #menu li {
-    display: inline-flex; 
+    flex-direction: row; 
     list-style-type: none;
-    margin-right: clamp(1rem, 3vh + 1rem, 2rem); 
+    margin-right: clamp(0.2rem, 1vw + 1rem, 2rem);
+    font-size: clamp(1rem, 2vw + 1rem, 2rem); 
 }
 
 #menu a {
@@ -73,6 +75,10 @@ img:hover {
     align-items: flex-end;
 }
 
+.navigation a {
+    text-decoration: none;
+}
+
 /* main page */
 
 #heroimage {
@@ -92,13 +98,13 @@ img:hover {
     margin-inline: auto;
   }
 
-  #left {
+  #index-left {
     display: flex;
     flex: 1 1 20%;
     justify-content: center;
   }
 
-  #right {
+  #index-right {
     display: flex;
     flex: 1 1 50%;
     flex-direction: column;
@@ -106,35 +112,35 @@ img:hover {
     text-align: center; 
   }
 
-  #right h2 {
+  #index-right h2 {
     font-size: clamp(2rem, 4vh + 1rem, 3rem);
     border-bottom: 1px solid #3a3a3a;
   }
 
-  #right p {
+  #index-right p {
     font-size: 1.1rem;
     padding: 1em;
   }
 
 /* gallery page */
 
-.gallery-left {
+.left {
     flex: 50%;
     padding: 2em;
     text-align: center;
   }
 
-  .gallery-right {
+  .right {
     flex: 50%;
     padding: 2em;
     text-align: center;
   }
 
-  .gallery-left img {
+  .left img {
     width: 250px;
   }
 
-  .gallery-right img {
+  .right img {
     width: 200px;
   }
 
@@ -181,6 +187,12 @@ video{
 }
 
 /* contact page */
+
+#contact-form {
+    display: flex;
+
+    text-align: center;
+}
 
 .social {
     display: flex;

@@ -51,7 +51,7 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 </ul>
 
 ## Acting page
-
+<hr>
 <ul>
 <li>Acting video
 <ul>
@@ -71,4 +71,18 @@ You can view the live website https://linusheinsvig.github.io/sofieheinsvig/
 <li>Between the two clips there is a photo acting like a link to StagePool where you can find more on her acting career
 </ul>
 </ul>
+
+## Gallery Page
+<hr>
+<ul>
+<li>Photo & Painting gallery
+<ul>
+<li>The gallery page is devided into two secions, one for photos and one for painting, all of the artwork is made by Sofie
+<li>All of the photos gets a opacity effect when hovered over making it feel more response
+<li>On smaller devices the gallery is responsive and stacks on top of each other insted of next to each other
+</ul>
+</ul>
+
+## Contact Page
+<hr>
 
