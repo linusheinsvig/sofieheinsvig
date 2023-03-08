@@ -181,18 +181,21 @@ https://fontawesome.com
 https://www.freeconvert.com
 </ul>
 <li>TinyPNG
-<ul>TinyPNG was used to reduce the size of the webp images to speed up the site
+<ul>
+<li>TinyPNG was used to reduce the size of the webp images to speed up the site
 
 https://tinypng.com/
 
 </ul>
 <li>Favicon.io
-<ul> I created the logo in the tab using favicon
+<ul> 
+<li>I created the logo in the tab using favicon
 
 https://favicon.io
 </ul>
 <li>Balsamiq
-<ul>The wireframes was made using balsamiq
+<ul>
+<li>The wireframes was made using balsamiq
 
 https://balsamiq.com/wireframes/desktop/#
 </ul>
@@ -234,6 +237,7 @@ Devices used to test website:
 </ul>
 
 ## Accessibility
+<hr>
 
 ### Wave accessibility test
 On all of the pages there is an alert that both the logo and the home button links to index.html
@@ -291,6 +295,43 @@ Alerts: Read my resume contains a PDF file
 <li>When clicking the phone number on computer it ask If I want to make a call with Facetime
 <li>When clicking the phone number with Iphone 12 you get to make a call
 <li>The call does not work becuse it's not the correct number because of Sofies integrity
+</ul>
+
+## Unfixed Bugs
+<hr>
+
+### Contact Form
+The contact form does not send your message anywhere because it needs a Javascript to work correctly.
+This is somethink I hope to fix in a later relese.
+
+### Hero Image
+The Hero image does not scale correctly on all devices.
+I did not have time to find a solution for this in time but defenitly something I will fix in a later relese.
+
+### Acting & Gallery page
+Both the acting and the gallery page runs a bit slow because of the images and the video.
+There is probably a solution to this and also something I would work on for a later relese.
+
+## Deployment
+<hr>
+
+### Version Control
+This site was created in GitPod and pushed to Github to the remote repository 'sofieheinsvig'
+<br>
+The following commands where used in this proccess
+<ul>
+<li>git add .
+<ul>
+<li>This command was used to add the file(s) to the staging area befor commiting
+</ul>
+<li>git commit -m "commit message"
+<ul>
+<li>This command was used to commit changes to the local repository before pushing them to the remote repository
+</ul>
+<li>git push
+<ul>
+<li>This command was used to push all localy stores changes to the remote repository on github
+</ul>
 
 
 
